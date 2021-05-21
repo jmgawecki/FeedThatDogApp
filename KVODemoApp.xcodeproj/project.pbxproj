@@ -10,12 +10,14 @@
 		EFA3F5EF2658552B005BEA3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F5EE2658552B005BEA3D /* AppDelegate.m */; };
 		EFA3F5F22658552B005BEA3D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F5F12658552B005BEA3D /* SceneDelegate.m */; };
 		EFA3F5F52658552B005BEA3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F5F42658552B005BEA3D /* ViewController.m */; };
-		EFA3F5F82658552B005BEA3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA3F5F62658552B005BEA3D /* Main.storyboard */; };
 		EFA3F5FA2658552C005BEA3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA3F5F92658552C005BEA3D /* Assets.xcassets */; };
 		EFA3F5FD2658552C005BEA3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA3F5FB2658552C005BEA3D /* LaunchScreen.storyboard */; };
 		EFA3F6002658552C005BEA3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F5FF2658552C005BEA3D /* main.m */; };
 		EFA3F60A2658552C005BEA3D /* KVODemoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F6092658552C005BEA3D /* KVODemoAppTests.m */; };
 		EFA3F6152658552C005BEA3D /* KVODemoAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F6142658552C005BEA3D /* KVODemoAppUITests.m */; };
+		EFA3F6232658571E005BEA3D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFA3F6222658571E005BEA3D /* ViewController.xib */; };
+		EFA3F62726585907005BEA3D /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F62526585907005BEA3D /* SecondVC.m */; };
+		EFA3F62826585907005BEA3D /* SecondVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFA3F62626585907005BEA3D /* SecondVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +45,6 @@
 		EFA3F5F12658552B005BEA3D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		EFA3F5F32658552B005BEA3D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EFA3F5F42658552B005BEA3D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		EFA3F5F72658552B005BEA3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFA3F5F92658552C005BEA3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFA3F5FC2658552C005BEA3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFA3F5FE2658552C005BEA3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,6 +55,10 @@
 		EFA3F6102658552C005BEA3D /* KVODemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVODemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA3F6142658552C005BEA3D /* KVODemoAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVODemoAppUITests.m; sourceTree = "<group>"; };
 		EFA3F6162658552C005BEA3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFA3F6222658571E005BEA3D /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		EFA3F62426585907005BEA3D /* SecondVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
+		EFA3F62526585907005BEA3D /* SecondVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
+		EFA3F62626585907005BEA3D /* SecondVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +115,10 @@
 				EFA3F5F12658552B005BEA3D /* SceneDelegate.m */,
 				EFA3F5F32658552B005BEA3D /* ViewController.h */,
 				EFA3F5F42658552B005BEA3D /* ViewController.m */,
-				EFA3F5F62658552B005BEA3D /* Main.storyboard */,
+				EFA3F6222658571E005BEA3D /* ViewController.xib */,
+				EFA3F62426585907005BEA3D /* SecondVC.h */,
+				EFA3F62526585907005BEA3D /* SecondVC.m */,
+				EFA3F62626585907005BEA3D /* SecondVC.xib */,
 				EFA3F5F92658552C005BEA3D /* Assets.xcassets */,
 				EFA3F5FB2658552C005BEA3D /* LaunchScreen.storyboard */,
 				EFA3F5FE2658552C005BEA3D /* Info.plist */,
@@ -240,8 +248,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFA3F5FD2658552C005BEA3D /* LaunchScreen.storyboard in Resources */,
+				EFA3F6232658571E005BEA3D /* ViewController.xib in Resources */,
+				EFA3F62826585907005BEA3D /* SecondVC.xib in Resources */,
 				EFA3F5FA2658552C005BEA3D /* Assets.xcassets in Resources */,
-				EFA3F5F82658552B005BEA3D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +278,7 @@
 				EFA3F5F52658552B005BEA3D /* ViewController.m in Sources */,
 				EFA3F5EF2658552B005BEA3D /* AppDelegate.m in Sources */,
 				EFA3F6002658552C005BEA3D /* main.m in Sources */,
+				EFA3F62726585907005BEA3D /* SecondVC.m in Sources */,
 				EFA3F5F22658552B005BEA3D /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,14 +315,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EFA3F5F62658552B005BEA3D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EFA3F5F72658552B005BEA3D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EFA3F5FB2658552C005BEA3D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

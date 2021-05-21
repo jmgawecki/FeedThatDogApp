@@ -6,10 +6,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ViewController.h"
+
+NS_ASSUME_NONNULL_BEGIN
 
 @interface SceneDelegate : UIResponder <UIWindowSceneDelegate>
 
-@property (strong, nonatomic) UIWindow * window;
+@property (strong, nonatomic, nullable) UIWindow * window;
+@property (strong, nonatomic) UIViewController *viewController;
 
 @end
 
+NS_ASSUME_NONNULL_END
