@@ -12,7 +12,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ForthVC : UIViewController
+@interface DogInteractionVC : UIViewController
 @property (strong, nonatomic) IBOutlet UILabel *dogInfoLabel;
 @property (strong, nonatomic) IBOutlet UILabel *dogHungerLabel;
 

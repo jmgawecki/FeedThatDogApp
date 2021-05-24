@@ -5,9 +5,9 @@
 //  Created by Jakub Gawecki on 23/05/2021.
 //
 
-#import "ForthVC+Category.h"
+#import "DogInteractionVC+Category.h"
 
-@implementation ForthVC (Category)
+@implementation DogInteractionVC (Category)
 
 -(void)dispatchHungerLabelOnMain:(NSString *)labelInfo {
    dispatch_async(dispatch_get_main_queue(), ^{

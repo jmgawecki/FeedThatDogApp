@@ -3,13 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		51D292BCDD8288C2D482AE32 /* Pods_KVODemoAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37140EB687D12B5BD2AFBEF9 /* Pods_KVODemoAppTests.framework */; };
 		A19510D02AF637D5BB16CA99 /* Pods_KVODemoApp_KVODemoAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72500D264B344E39A3466C05 /* Pods_KVODemoApp_KVODemoAppUITests.framework */; };
 		AF4428810419BAE511FB123F /* Pods_KVODemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 212F0F0E7F4B0FFB219CF051 /* Pods_KVODemoApp.framework */; };
+		EF53DE5D265BC22400704E3D /* AppAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = EF53DE5C265BC22400704E3D /* AppAssembly.m */; };
 		EFA3F5EF2658552B005BEA3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F5EE2658552B005BEA3D /* AppDelegate.m */; };
 		EFA3F5F22658552B005BEA3D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F5F12658552B005BEA3D /* SceneDelegate.m */; };
 		EFA3F5FA2658552C005BEA3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA3F5F92658552C005BEA3D /* Assets.xcassets */; };
@@ -18,10 +19,10 @@
 		EFA3F6152658552C005BEA3D /* KVODemoAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F6142658552C005BEA3D /* KVODemoAppUITests.m */; };
 		EFA3F62E26586082005BEA3D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F62D26586082005BEA3D /* Person.m */; };
 		EFA3F6362659228B005BEA3D /* Cookie.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F6352659228B005BEA3D /* Cookie.m */; };
-		EFA3F63A26592947005BEA3D /* ForthVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F63826592947005BEA3D /* ForthVC.m */; };
+		EFA3F63A26592947005BEA3D /* DogInteractionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F63826592947005BEA3D /* DogInteractionVC.m */; };
 		EFA3F63B26592947005BEA3D /* ForthVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFA3F63926592947005BEA3D /* ForthVC.xib */; };
 		EFA3F63E2659295F005BEA3D /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F63D2659295F005BEA3D /* Dog.m */; };
-		EFA3F644265A3DE4005BEA3D /* ForthVC+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F643265A3DE4005BEA3D /* ForthVC+Category.m */; };
+		EFA3F644265A3DE4005BEA3D /* DogInteractionVC+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F643265A3DE4005BEA3D /* DogInteractionVC+Category.m */; };
 		EFA3F64A265A4B53005BEA3D /* DogWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F649265A4B53005BEA3D /* DogWatcher.m */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,8 @@
 		92313FB5C90E69FCCB7F5DC2 /* Pods-KVODemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVODemoApp.debug.xcconfig"; path = "Target Support Files/Pods-KVODemoApp/Pods-KVODemoApp.debug.xcconfig"; sourceTree = "<group>"; };
 		B88D46FD6A78F7911DF223D6 /* Pods-KVODemoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVODemoAppTests.debug.xcconfig"; path = "Target Support Files/Pods-KVODemoAppTests/Pods-KVODemoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DFB77B1757DC6337F64E563D /* Pods-KVODemoApp-KVODemoAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVODemoApp-KVODemoAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-KVODemoApp-KVODemoAppUITests/Pods-KVODemoApp-KVODemoAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF53DE5B265BC22400704E3D /* AppAssembly.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppAssembly.h; sourceTree = "<group>"; };
+		EF53DE5C265BC22400704E3D /* AppAssembly.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppAssembly.m; sourceTree = "<group>"; };
 		EFA3F5EA2658552B005BEA3D /* KVODemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVODemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA3F5ED2658552B005BEA3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EFA3F5EE2658552B005BEA3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -70,13 +73,13 @@
 		EFA3F62D26586082005BEA3D /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		EFA3F6342659228B005BEA3D /* Cookie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cookie.h; sourceTree = "<group>"; };
 		EFA3F6352659228B005BEA3D /* Cookie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cookie.m; sourceTree = "<group>"; };
-		EFA3F63726592947005BEA3D /* ForthVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForthVC.h; sourceTree = "<group>"; };
-		EFA3F63826592947005BEA3D /* ForthVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForthVC.m; sourceTree = "<group>"; };
+		EFA3F63726592947005BEA3D /* DogInteractionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DogInteractionVC.h; sourceTree = "<group>"; };
+		EFA3F63826592947005BEA3D /* DogInteractionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogInteractionVC.m; sourceTree = "<group>"; };
 		EFA3F63926592947005BEA3D /* ForthVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForthVC.xib; sourceTree = "<group>"; };
 		EFA3F63C2659295F005BEA3D /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
 		EFA3F63D2659295F005BEA3D /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
-		EFA3F642265A3DE4005BEA3D /* ForthVC+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ForthVC+Category.h"; sourceTree = "<group>"; };
-		EFA3F643265A3DE4005BEA3D /* ForthVC+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ForthVC+Category.m"; sourceTree = "<group>"; };
+		EFA3F642265A3DE4005BEA3D /* DogInteractionVC+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DogInteractionVC+Category.h"; sourceTree = "<group>"; };
+		EFA3F643265A3DE4005BEA3D /* DogInteractionVC+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DogInteractionVC+Category.m"; sourceTree = "<group>"; };
 		EFA3F648265A4B53005BEA3D /* DogWatcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DogWatcher.h; sourceTree = "<group>"; };
 		EFA3F649265A4B53005BEA3D /* DogWatcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogWatcher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -129,7 +132,6 @@
 				B88D46FD6A78F7911DF223D6 /* Pods-KVODemoAppTests.debug.xcconfig */,
 				71937470018271CBB230A45D /* Pods-KVODemoAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -163,6 +165,8 @@
 				EFA3F62A2658602D005BEA3D /* Component */,
 				EFA3F6292658600D005BEA3D /* View Controller */,
 				EFA3F5FE2658552C005BEA3D /* Info.plist */,
+				EF53DE5B265BC22400704E3D /* AppAssembly.h */,
+				EF53DE5C265BC22400704E3D /* AppAssembly.m */,
 			);
 			path = KVODemoApp;
 			sourceTree = "<group>";
@@ -188,10 +192,10 @@
 		EFA3F6292658600D005BEA3D /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
-				EFA3F63726592947005BEA3D /* ForthVC.h */,
-				EFA3F63826592947005BEA3D /* ForthVC.m */,
-				EFA3F642265A3DE4005BEA3D /* ForthVC+Category.h */,
-				EFA3F643265A3DE4005BEA3D /* ForthVC+Category.m */,
+				EFA3F63726592947005BEA3D /* DogInteractionVC.h */,
+				EFA3F63826592947005BEA3D /* DogInteractionVC.m */,
+				EFA3F642265A3DE4005BEA3D /* DogInteractionVC+Category.h */,
+				EFA3F643265A3DE4005BEA3D /* DogInteractionVC+Category.m */,
 				EFA3F63926592947005BEA3D /* ForthVC.xib */,
 			);
 			path = "View Controller";
@@ -468,13 +472,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFA3F63A26592947005BEA3D /* ForthVC.m in Sources */,
+				EFA3F63A26592947005BEA3D /* DogInteractionVC.m in Sources */,
+				EF53DE5D265BC22400704E3D /* AppAssembly.m in Sources */,
 				EFA3F63E2659295F005BEA3D /* Dog.m in Sources */,
 				EFA3F62E26586082005BEA3D /* Person.m in Sources */,
 				EFA3F5EF2658552B005BEA3D /* AppDelegate.m in Sources */,
 				EFA3F6002658552C005BEA3D /* main.m in Sources */,
 				EFA3F64A265A4B53005BEA3D /* DogWatcher.m in Sources */,
-				EFA3F644265A3DE4005BEA3D /* ForthVC+Category.m in Sources */,
+				EFA3F644265A3DE4005BEA3D /* DogInteractionVC+Category.m in Sources */,
 				EFA3F6362659228B005BEA3D /* Cookie.m in Sources */,
 				EFA3F5F22658552B005BEA3D /* SceneDelegate.m in Sources */,
 			);

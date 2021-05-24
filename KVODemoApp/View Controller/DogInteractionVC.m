@@ -5,14 +5,14 @@
 //  Created by Jakub Gawecki on 22/05/2021.
 //
 
-#import "ForthVC.h"
+#import "DogInteractionVC.h"
 //#import "ForthVC+Category.h"
 
-@interface ForthVC ()
+@interface DogInteractionVC ()
 
 @end
 
-@implementation ForthVC
+@implementation DogInteractionVC
 
 
 - (void)viewDidLoad {

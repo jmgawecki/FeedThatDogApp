@@ -5,11 +5,11 @@
 //  Created by Jakub Gawecki on 23/05/2021.
 //
 
-#import "ForthVC.h"
+#import "DogInteractionVC.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ForthVC (Category)
+@interface DogInteractionVC (Category)
 
 -(void)dispatchHungerLabelOnMain:(NSString *)labelInfo;
 

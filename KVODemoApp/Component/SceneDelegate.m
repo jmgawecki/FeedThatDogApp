@@ -15,10 +15,12 @@
 
 
 - (void)scene:(UIScene *)scene willConnectToSession:(UISceneSession *)session options:(UISceneConnectionOptions *)connectionOptions {
-   self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+   self.window             = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
    self.window.windowScene = (UIWindowScene *)scene;
-   self.viewController = [[ForthVC alloc] initWithPerson:[[Person alloc] init]];
-   self.navController = [[UINavigationController alloc] initWithRootViewController:self.viewController];
+   self.appAssembly        = [[AppAssembly new] activated];
+   
+   self.viewController     = [self.appAssembly dogVC];
+   self.navController      = [[UINavigationController alloc] initWithRootViewController:self.viewController];
    self.window.rootViewController = self.navController;
    [self.window makeKeyAndVisible];
 }

@@ -6,8 +6,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ForthVC.h"
+#import "DogInteractionVC.h"
 #import "Person.h"
+#import "AppAssembly.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -16,6 +17,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (strong, nonatomic, nullable) UIWindow * window;
 @property (strong, nonatomic) UINavigationController *navController;
 @property (strong, nonatomic) UIViewController *viewController;
+
+@property AppAssembly *appAssembly;
 
 @end
 
