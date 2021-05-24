@@ -7,23 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		51D292BCDD8288C2D482AE32 /* Pods_KVODemoAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37140EB687D12B5BD2AFBEF9 /* Pods_KVODemoAppTests.framework */; };
+		A19510D02AF637D5BB16CA99 /* Pods_KVODemoApp_KVODemoAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72500D264B344E39A3466C05 /* Pods_KVODemoApp_KVODemoAppUITests.framework */; };
+		AF4428810419BAE511FB123F /* Pods_KVODemoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 212F0F0E7F4B0FFB219CF051 /* Pods_KVODemoApp.framework */; };
 		EFA3F5EF2658552B005BEA3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F5EE2658552B005BEA3D /* AppDelegate.m */; };
 		EFA3F5F22658552B005BEA3D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F5F12658552B005BEA3D /* SceneDelegate.m */; };
-		EFA3F5F52658552B005BEA3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F5F42658552B005BEA3D /* ViewController.m */; };
 		EFA3F5FA2658552C005BEA3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA3F5F92658552C005BEA3D /* Assets.xcassets */; };
 		EFA3F6002658552C005BEA3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F5FF2658552C005BEA3D /* main.m */; };
 		EFA3F60A2658552C005BEA3D /* KVODemoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F6092658552C005BEA3D /* KVODemoAppTests.m */; };
 		EFA3F6152658552C005BEA3D /* KVODemoAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F6142658552C005BEA3D /* KVODemoAppUITests.m */; };
-		EFA3F6232658571E005BEA3D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFA3F6222658571E005BEA3D /* ViewController.xib */; };
-		EFA3F62726585907005BEA3D /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F62526585907005BEA3D /* SecondVC.m */; };
-		EFA3F62826585907005BEA3D /* SecondVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFA3F62626585907005BEA3D /* SecondVC.xib */; };
 		EFA3F62E26586082005BEA3D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F62D26586082005BEA3D /* Person.m */; };
-		EFA3F63226591713005BEA3D /* ThirdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F63026591713005BEA3D /* ThirdVC.m */; };
-		EFA3F63326591713005BEA3D /* ThirdVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFA3F63126591713005BEA3D /* ThirdVC.xib */; };
 		EFA3F6362659228B005BEA3D /* Cookie.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F6352659228B005BEA3D /* Cookie.m */; };
 		EFA3F63A26592947005BEA3D /* ForthVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F63826592947005BEA3D /* ForthVC.m */; };
 		EFA3F63B26592947005BEA3D /* ForthVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFA3F63926592947005BEA3D /* ForthVC.xib */; };
 		EFA3F63E2659295F005BEA3D /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F63D2659295F005BEA3D /* Dog.m */; };
+		EFA3F644265A3DE4005BEA3D /* ForthVC+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F643265A3DE4005BEA3D /* ForthVC+Category.m */; };
+		EFA3F64A265A4B53005BEA3D /* DogWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F649265A4B53005BEA3D /* DogWatcher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,13 +43,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1EB5D80B230A2978D87F9FCB /* Pods-KVODemoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVODemoApp.release.xcconfig"; path = "Target Support Files/Pods-KVODemoApp/Pods-KVODemoApp.release.xcconfig"; sourceTree = "<group>"; };
+		212F0F0E7F4B0FFB219CF051 /* Pods_KVODemoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KVODemoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28E1512258E291352E7F4514 /* Pods-KVODemoApp-KVODemoAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVODemoApp-KVODemoAppUITests.release.xcconfig"; path = "Target Support Files/Pods-KVODemoApp-KVODemoAppUITests/Pods-KVODemoApp-KVODemoAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		37140EB687D12B5BD2AFBEF9 /* Pods_KVODemoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KVODemoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71937470018271CBB230A45D /* Pods-KVODemoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVODemoAppTests.release.xcconfig"; path = "Target Support Files/Pods-KVODemoAppTests/Pods-KVODemoAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		72500D264B344E39A3466C05 /* Pods_KVODemoApp_KVODemoAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KVODemoApp_KVODemoAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92313FB5C90E69FCCB7F5DC2 /* Pods-KVODemoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVODemoApp.debug.xcconfig"; path = "Target Support Files/Pods-KVODemoApp/Pods-KVODemoApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B88D46FD6A78F7911DF223D6 /* Pods-KVODemoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVODemoAppTests.debug.xcconfig"; path = "Target Support Files/Pods-KVODemoAppTests/Pods-KVODemoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DFB77B1757DC6337F64E563D /* Pods-KVODemoApp-KVODemoAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KVODemoApp-KVODemoAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-KVODemoApp-KVODemoAppUITests/Pods-KVODemoApp-KVODemoAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EFA3F5EA2658552B005BEA3D /* KVODemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVODemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA3F5ED2658552B005BEA3D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EFA3F5EE2658552B005BEA3D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EFA3F5F02658552B005BEA3D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		EFA3F5F12658552B005BEA3D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		EFA3F5F32658552B005BEA3D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EFA3F5F42658552B005BEA3D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EFA3F5F92658552C005BEA3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFA3F5FE2658552C005BEA3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFA3F5FF2658552C005BEA3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -60,15 +66,8 @@
 		EFA3F6102658552C005BEA3D /* KVODemoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVODemoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA3F6142658552C005BEA3D /* KVODemoAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVODemoAppUITests.m; sourceTree = "<group>"; };
 		EFA3F6162658552C005BEA3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EFA3F6222658571E005BEA3D /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
-		EFA3F62426585907005BEA3D /* SecondVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
-		EFA3F62526585907005BEA3D /* SecondVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
-		EFA3F62626585907005BEA3D /* SecondVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondVC.xib; sourceTree = "<group>"; };
 		EFA3F62C26586082005BEA3D /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		EFA3F62D26586082005BEA3D /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
-		EFA3F62F26591713005BEA3D /* ThirdVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdVC.h; sourceTree = "<group>"; };
-		EFA3F63026591713005BEA3D /* ThirdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdVC.m; sourceTree = "<group>"; };
-		EFA3F63126591713005BEA3D /* ThirdVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdVC.xib; sourceTree = "<group>"; };
 		EFA3F6342659228B005BEA3D /* Cookie.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cookie.h; sourceTree = "<group>"; };
 		EFA3F6352659228B005BEA3D /* Cookie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cookie.m; sourceTree = "<group>"; };
 		EFA3F63726592947005BEA3D /* ForthVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForthVC.h; sourceTree = "<group>"; };
@@ -76,6 +75,10 @@
 		EFA3F63926592947005BEA3D /* ForthVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForthVC.xib; sourceTree = "<group>"; };
 		EFA3F63C2659295F005BEA3D /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
 		EFA3F63D2659295F005BEA3D /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		EFA3F642265A3DE4005BEA3D /* ForthVC+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ForthVC+Category.h"; sourceTree = "<group>"; };
+		EFA3F643265A3DE4005BEA3D /* ForthVC+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ForthVC+Category.m"; sourceTree = "<group>"; };
+		EFA3F648265A4B53005BEA3D /* DogWatcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DogWatcher.h; sourceTree = "<group>"; };
+		EFA3F649265A4B53005BEA3D /* DogWatcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogWatcher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF4428810419BAE511FB123F /* Pods_KVODemoApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51D292BCDD8288C2D482AE32 /* Pods_KVODemoAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,12 +102,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A19510D02AF637D5BB16CA99 /* Pods_KVODemoApp_KVODemoAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4071CDADF294A9E7739291C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				212F0F0E7F4B0FFB219CF051 /* Pods_KVODemoApp.framework */,
+				72500D264B344E39A3466C05 /* Pods_KVODemoApp_KVODemoAppUITests.framework */,
+				37140EB687D12B5BD2AFBEF9 /* Pods_KVODemoAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43426DC5520142289F6C5CE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92313FB5C90E69FCCB7F5DC2 /* Pods-KVODemoApp.debug.xcconfig */,
+				1EB5D80B230A2978D87F9FCB /* Pods-KVODemoApp.release.xcconfig */,
+				DFB77B1757DC6337F64E563D /* Pods-KVODemoApp-KVODemoAppUITests.debug.xcconfig */,
+				28E1512258E291352E7F4514 /* Pods-KVODemoApp-KVODemoAppUITests.release.xcconfig */,
+				B88D46FD6A78F7911DF223D6 /* Pods-KVODemoAppTests.debug.xcconfig */,
+				71937470018271CBB230A45D /* Pods-KVODemoAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EFA3F5E12658552B005BEA3D = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +140,8 @@
 				EFA3F6082658552C005BEA3D /* KVODemoAppTests */,
 				EFA3F6132658552C005BEA3D /* KVODemoAppUITests */,
 				EFA3F5EB2658552B005BEA3D /* Products */,
+				43426DC5520142289F6C5CE9 /* Pods */,
+				4071CDADF294A9E7739291C8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +158,7 @@
 		EFA3F5EC2658552B005BEA3D /* KVODemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				EFA3F645265A4AC9005BEA3D /* KVO */,
 				EFA3F62B2658605A005BEA3D /* Model */,
 				EFA3F62A2658602D005BEA3D /* Component */,
 				EFA3F6292658600D005BEA3D /* View Controller */,
@@ -155,17 +188,10 @@
 		EFA3F6292658600D005BEA3D /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
-				EFA3F5F32658552B005BEA3D /* ViewController.h */,
-				EFA3F5F42658552B005BEA3D /* ViewController.m */,
-				EFA3F6222658571E005BEA3D /* ViewController.xib */,
-				EFA3F62426585907005BEA3D /* SecondVC.h */,
-				EFA3F62526585907005BEA3D /* SecondVC.m */,
-				EFA3F62626585907005BEA3D /* SecondVC.xib */,
-				EFA3F62F26591713005BEA3D /* ThirdVC.h */,
-				EFA3F63026591713005BEA3D /* ThirdVC.m */,
-				EFA3F63126591713005BEA3D /* ThirdVC.xib */,
 				EFA3F63726592947005BEA3D /* ForthVC.h */,
 				EFA3F63826592947005BEA3D /* ForthVC.m */,
+				EFA3F642265A3DE4005BEA3D /* ForthVC+Category.h */,
+				EFA3F643265A3DE4005BEA3D /* ForthVC+Category.m */,
 				EFA3F63926592947005BEA3D /* ForthVC.xib */,
 			);
 			path = "View Controller";
@@ -197,6 +223,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		EFA3F645265A4AC9005BEA3D /* KVO */ = {
+			isa = PBXGroup;
+			children = (
+				EFA3F648265A4B53005BEA3D /* DogWatcher.h */,
+				EFA3F649265A4B53005BEA3D /* DogWatcher.m */,
+			);
+			path = KVO;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -204,9 +239,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFA3F6192658552C005BEA3D /* Build configuration list for PBXNativeTarget "KVODemoApp" */;
 			buildPhases = (
+				BDBA37C21433D2EFBD413129 /* [CP] Check Pods Manifest.lock */,
 				EFA3F5E62658552B005BEA3D /* Sources */,
 				EFA3F5E72658552B005BEA3D /* Frameworks */,
 				EFA3F5E82658552B005BEA3D /* Resources */,
+				AEE29E9B075C0FD7CC4DE123 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -221,6 +258,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFA3F61C2658552C005BEA3D /* Build configuration list for PBXNativeTarget "KVODemoAppTests" */;
 			buildPhases = (
+				9CDD04379C06CC8D0034F84B /* [CP] Check Pods Manifest.lock */,
 				EFA3F6012658552C005BEA3D /* Sources */,
 				EFA3F6022658552C005BEA3D /* Frameworks */,
 				EFA3F6032658552C005BEA3D /* Resources */,
@@ -239,9 +277,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFA3F61F2658552C005BEA3D /* Build configuration list for PBXNativeTarget "KVODemoAppUITests" */;
 			buildPhases = (
+				88307585AD15CC7C7413B305 /* [CP] Check Pods Manifest.lock */,
 				EFA3F60C2658552C005BEA3D /* Sources */,
 				EFA3F60D2658552C005BEA3D /* Frameworks */,
 				EFA3F60E2658552C005BEA3D /* Resources */,
+				72036369BA6414431FCF3589 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -299,9 +339,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFA3F63326591713005BEA3D /* ThirdVC.xib in Resources */,
-				EFA3F6232658571E005BEA3D /* ViewController.xib in Resources */,
-				EFA3F62826585907005BEA3D /* SecondVC.xib in Resources */,
 				EFA3F63B26592947005BEA3D /* ForthVC.xib in Resources */,
 				EFA3F5FA2658552C005BEA3D /* Assets.xcassets in Resources */,
 			);
@@ -323,20 +360,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		72036369BA6414431FCF3589 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KVODemoApp-KVODemoAppUITests/Pods-KVODemoApp-KVODemoAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KVODemoApp-KVODemoAppUITests/Pods-KVODemoApp-KVODemoAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KVODemoApp-KVODemoAppUITests/Pods-KVODemoApp-KVODemoAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88307585AD15CC7C7413B305 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KVODemoApp-KVODemoAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CDD04379C06CC8D0034F84B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KVODemoAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEE29E9B075C0FD7CC4DE123 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KVODemoApp/Pods-KVODemoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KVODemoApp/Pods-KVODemoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KVODemoApp/Pods-KVODemoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDBA37C21433D2EFBD413129 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KVODemoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EFA3F5E62658552B005BEA3D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFA3F63226591713005BEA3D /* ThirdVC.m in Sources */,
 				EFA3F63A26592947005BEA3D /* ForthVC.m in Sources */,
 				EFA3F63E2659295F005BEA3D /* Dog.m in Sources */,
 				EFA3F62E26586082005BEA3D /* Person.m in Sources */,
-				EFA3F5F52658552B005BEA3D /* ViewController.m in Sources */,
 				EFA3F5EF2658552B005BEA3D /* AppDelegate.m in Sources */,
 				EFA3F6002658552C005BEA3D /* main.m in Sources */,
+				EFA3F64A265A4B53005BEA3D /* DogWatcher.m in Sources */,
+				EFA3F644265A3DE4005BEA3D /* ForthVC+Category.m in Sources */,
 				EFA3F6362659228B005BEA3D /* Cookie.m in Sources */,
-				EFA3F62726585907005BEA3D /* SecondVC.m in Sources */,
 				EFA3F5F22658552B005BEA3D /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -487,6 +626,7 @@
 		};
 		EFA3F61A2658552C005BEA3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92313FB5C90E69FCCB7F5DC2 /* Pods-KVODemoApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -505,6 +645,7 @@
 		};
 		EFA3F61B2658552C005BEA3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EB5D80B230A2978D87F9FCB /* Pods-KVODemoApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -523,6 +664,7 @@
 		};
 		EFA3F61D2658552C005BEA3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B88D46FD6A78F7911DF223D6 /* Pods-KVODemoAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -543,6 +685,7 @@
 		};
 		EFA3F61E2658552C005BEA3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71937470018271CBB230A45D /* Pods-KVODemoAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -563,6 +706,7 @@
 		};
 		EFA3F6202658552C005BEA3D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFB77B1757DC6337F64E563D /* Pods-KVODemoApp-KVODemoAppUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9HHDDYFD2W;
@@ -581,6 +725,7 @@
 		};
 		EFA3F6212658552C005BEA3D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28E1512258E291352E7F4514 /* Pods-KVODemoApp-KVODemoAppUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9HHDDYFD2W;

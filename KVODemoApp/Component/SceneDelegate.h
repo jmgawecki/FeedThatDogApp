@@ -6,7 +6,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ViewController.h"
+#import "ForthVC.h"
+#import "Person.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

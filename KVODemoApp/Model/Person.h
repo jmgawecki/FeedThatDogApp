@@ -19,7 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property int height;
 
 @property (nullable, nonatomic) Cookie *cookie;
-@property (nullable, nonatomic, weak) Dog    *doggo;
+@property (nullable, nonatomic) Dog    *doggo;
 
 @end
 

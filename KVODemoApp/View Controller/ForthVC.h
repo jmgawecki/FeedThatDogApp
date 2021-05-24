@@ -8,12 +8,16 @@
 #import <UIKit/UIKit.h>
 #import "Person.h"
 #import "Dog.h"
+//#import "ForthVC+Category.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ForthVC : UIViewController
 @property (strong, nonatomic) IBOutlet UILabel *dogInfoLabel;
 @property (strong, nonatomic) IBOutlet UILabel *dogHungerLabel;
+
+@property (strong, nonatomic) IBOutlet UIButton *feedDogButton;
+@property (strong, nonatomic) IBOutlet UIButton *buyDogButton;
 
 @property Person *person;
 @property NSNumber *hunger;

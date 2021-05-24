@@ -12,10 +12,18 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Dog : NSObject
 
-@property int hungerLevel;
+@property int                 hungerLevel;
+@property int                 toiletNeed;
+@property int                 dirtinessLevel;
+
+@property (nullable) NSTimer* hungerTimer;
+@property (nullable) NSTimer* toiletTimer;
+@property (nullable) NSTimer* cleaningnessTimer;
 
 
 -(void)dogGetsHungry;
+-(void)dogGetsDirty;
+-(void)dogNeedsToilet;
 
 @end
 

@@ -1,0 +1,23 @@
+PODS:
+  - Typhoon (4.0.9):
+    - Typhoon/DeallocNotifier (= 4.0.9)
+    - Typhoon/IntrospectionUtils (= 4.0.9)
+    - Typhoon/no-arc (= 4.0.9)
+  - Typhoon/DeallocNotifier (4.0.9)
+  - Typhoon/IntrospectionUtils (4.0.9)
+  - Typhoon/no-arc (4.0.9):
+    - Typhoon/IntrospectionUtils
+
+DEPENDENCIES:
+  - Typhoon
+
+SPEC REPOS:
+  trunk:
+    - Typhoon
+
+SPEC CHECKSUMS:
+  Typhoon: 1973c93ecfb3edb963d78b10e715bc2911475bd2
+
+PODFILE CHECKSUM: cebe6acf6ac1f3097d45496e86b748c87bfc4b21
+
+COCOAPODS: 1.10.1

@@ -10,8 +10,10 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ForthVC">
             <connections>
+                <outlet property="buyDogButton" destination="fPx-wQ-P94" id="44x-79-PAl"/>
                 <outlet property="dogHungerLabel" destination="8QV-VJ-MYT" id="GQe-85-xBG"/>
                 <outlet property="dogInfoLabel" destination="rAh-Yf-O7W" id="Nvk-KO-dNu"/>
+                <outlet property="feedDogButton" destination="ujt-1X-gLD" id="QL7-lv-4fg"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

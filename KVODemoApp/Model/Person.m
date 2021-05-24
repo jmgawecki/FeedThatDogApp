@@ -35,6 +35,8 @@
    if ([keyPath isEqualToString:@"doggo"]) {
       NSLog(@"value of the doggo in observeValueForKeyPath: %@", [object valueForKeyPath:keyPath]);
       [self.doggo dogGetsHungry];
+      [self.doggo dogGetsDirty];
+      [self.doggo dogNeedsToilet];
    }
    
 }
