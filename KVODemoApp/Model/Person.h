@@ -21,6 +21,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nullable, nonatomic) Cookie *cookie;
 @property (nullable, nonatomic) Dog    *doggo;
 
+@property (nullable, nonatomic) NSMutableArray<Cookie *> *cookies;
+
 @end
 
 NS_ASSUME_NONNULL_END

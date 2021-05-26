@@ -20,10 +20,12 @@
 		EFA3F62E26586082005BEA3D /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F62D26586082005BEA3D /* Person.m */; };
 		EFA3F6362659228B005BEA3D /* Cookie.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F6352659228B005BEA3D /* Cookie.m */; };
 		EFA3F63A26592947005BEA3D /* DogInteractionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F63826592947005BEA3D /* DogInteractionVC.m */; };
-		EFA3F63B26592947005BEA3D /* ForthVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFA3F63926592947005BEA3D /* ForthVC.xib */; };
+		EFA3F63B26592947005BEA3D /* DogInteractionVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFA3F63926592947005BEA3D /* DogInteractionVC.xib */; };
 		EFA3F63E2659295F005BEA3D /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F63D2659295F005BEA3D /* Dog.m */; };
 		EFA3F644265A3DE4005BEA3D /* DogInteractionVC+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F643265A3DE4005BEA3D /* DogInteractionVC+Category.m */; };
 		EFA3F64A265A4B53005BEA3D /* DogWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA3F649265A4B53005BEA3D /* DogWatcher.m */; };
+		EFB77553265CE4A40069DE10 /* HowManyCookiesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB77551265CE4A40069DE10 /* HowManyCookiesVC.m */; };
+		EFB77554265CE4A40069DE10 /* HowManyCookiesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFB77552265CE4A40069DE10 /* HowManyCookiesVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,13 +77,16 @@
 		EFA3F6352659228B005BEA3D /* Cookie.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cookie.m; sourceTree = "<group>"; };
 		EFA3F63726592947005BEA3D /* DogInteractionVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DogInteractionVC.h; sourceTree = "<group>"; };
 		EFA3F63826592947005BEA3D /* DogInteractionVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogInteractionVC.m; sourceTree = "<group>"; };
-		EFA3F63926592947005BEA3D /* ForthVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForthVC.xib; sourceTree = "<group>"; };
+		EFA3F63926592947005BEA3D /* DogInteractionVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DogInteractionVC.xib; sourceTree = "<group>"; };
 		EFA3F63C2659295F005BEA3D /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
 		EFA3F63D2659295F005BEA3D /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 		EFA3F642265A3DE4005BEA3D /* DogInteractionVC+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DogInteractionVC+Category.h"; sourceTree = "<group>"; };
 		EFA3F643265A3DE4005BEA3D /* DogInteractionVC+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "DogInteractionVC+Category.m"; sourceTree = "<group>"; };
 		EFA3F648265A4B53005BEA3D /* DogWatcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DogWatcher.h; sourceTree = "<group>"; };
 		EFA3F649265A4B53005BEA3D /* DogWatcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogWatcher.m; sourceTree = "<group>"; };
+		EFB77550265CE4A40069DE10 /* HowManyCookiesVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HowManyCookiesVC.h; sourceTree = "<group>"; };
+		EFB77551265CE4A40069DE10 /* HowManyCookiesVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HowManyCookiesVC.m; sourceTree = "<group>"; };
+		EFB77552265CE4A40069DE10 /* HowManyCookiesVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HowManyCookiesVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +138,28 @@
 				71937470018271CBB230A45D /* Pods-KVODemoAppTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		EF53DE5E265BE04900704E3D /* DogInteractionVC */ = {
+			isa = PBXGroup;
+			children = (
+				EFA3F63726592947005BEA3D /* DogInteractionVC.h */,
+				EFA3F63826592947005BEA3D /* DogInteractionVC.m */,
+				EFA3F642265A3DE4005BEA3D /* DogInteractionVC+Category.h */,
+				EFA3F643265A3DE4005BEA3D /* DogInteractionVC+Category.m */,
+				EFA3F63926592947005BEA3D /* DogInteractionVC.xib */,
+			);
+			path = DogInteractionVC;
+			sourceTree = "<group>";
+		};
+		EF53DE5F265BE05800704E3D /* HowManyCookiesVC */ = {
+			isa = PBXGroup;
+			children = (
+				EFB77550265CE4A40069DE10 /* HowManyCookiesVC.h */,
+				EFB77551265CE4A40069DE10 /* HowManyCookiesVC.m */,
+				EFB77552265CE4A40069DE10 /* HowManyCookiesVC.xib */,
+			);
+			path = HowManyCookiesVC;
 			sourceTree = "<group>";
 		};
 		EFA3F5E12658552B005BEA3D = {
@@ -192,11 +219,8 @@
 		EFA3F6292658600D005BEA3D /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
-				EFA3F63726592947005BEA3D /* DogInteractionVC.h */,
-				EFA3F63826592947005BEA3D /* DogInteractionVC.m */,
-				EFA3F642265A3DE4005BEA3D /* DogInteractionVC+Category.h */,
-				EFA3F643265A3DE4005BEA3D /* DogInteractionVC+Category.m */,
-				EFA3F63926592947005BEA3D /* ForthVC.xib */,
+				EF53DE5F265BE05800704E3D /* HowManyCookiesVC */,
+				EF53DE5E265BE04900704E3D /* DogInteractionVC */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -343,7 +367,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFA3F63B26592947005BEA3D /* ForthVC.xib in Resources */,
+				EFB77554265CE4A40069DE10 /* HowManyCookiesVC.xib in Resources */,
+				EFA3F63B26592947005BEA3D /* DogInteractionVC.xib in Resources */,
 				EFA3F5FA2658552C005BEA3D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,6 +499,7 @@
 			files = (
 				EFA3F63A26592947005BEA3D /* DogInteractionVC.m in Sources */,
 				EF53DE5D265BC22400704E3D /* AppAssembly.m in Sources */,
+				EFB77553265CE4A40069DE10 /* HowManyCookiesVC.m in Sources */,
 				EFA3F63E2659295F005BEA3D /* Dog.m in Sources */,
 				EFA3F62E26586082005BEA3D /* Person.m in Sources */,
 				EFA3F5EF2658552B005BEA3D /* AppDelegate.m in Sources */,

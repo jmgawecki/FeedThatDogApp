@@ -15,6 +15,9 @@
    self = [super init];
    if (self) {
       self.cookie = [[Cookie alloc] init];
+      self.cookies = [NSMutableArray<Cookie *> new];
+      [self.cookies addObject:self.cookie];
+      NSLog(@"You have %lu Cookies!", self.cookies.count);
       [self addObservers];
    }
    return self;
@@ -36,8 +39,7 @@
       NSLog(@"value of the doggo in observeValueForKeyPath: %@", [object valueForKeyPath:keyPath]);
       [self.doggo dogGetsHungry];
       [self.doggo dogGetsDirty];
-      [self.doggo dogNeedsToilet];
-   }
+      [self.doggo dogNeedsToilet];   }
    
 }
 

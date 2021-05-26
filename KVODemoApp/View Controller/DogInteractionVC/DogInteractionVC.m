@@ -6,6 +6,7 @@
 //
 
 #import "DogInteractionVC.h"
+#import "AppAssembly.h"
 //#import "ForthVC+Category.h"
 
 @interface DogInteractionVC ()
@@ -17,13 +18,21 @@
 
 - (void)viewDidLoad {
    [super viewDidLoad];
+   [self styleButtons];
+   [self configureVC];
+   
+}
+
+- (void)configureVC {
+   [self.navigationController setNavigationBarHidden:YES animated:YES];
 }
 
 
-- (instancetype)initWithPerson:(Person *)person {
+- (instancetype)initWithPerson:(Person *)person assembly:(nonnull AppAssembly *)assembly {
    self = [super init];
    if (self) {
       self.person = person;
+      self.appAssembly = assembly;
    }
    return self;
 }
@@ -35,9 +44,9 @@
              options:NSKeyValueObservingOptionNew
              context:nil];
    
-   
+   [self.appAssembly me].doggo = [self.appAssembly dog];
    self.person.doggo = [[Dog alloc] init];
-   if (self.person.doggo) {
+   if ([self.appAssembly me].doggo) {
       dispatch_async(dispatch_get_main_queue(), ^{
          self.dogInfoLabel.text = @"Your dog is fine :)";
       });
@@ -53,6 +62,24 @@
 
 - (IBAction)feedDogButtonTapped:(id)sender {
    self.person.doggo.hungerLevel -= 75;
+   [[self.appAssembly me].cookies addObject:[[Cookie alloc] init]];
+//   [self.person.cookies addObject:[[Cookie alloc] init]];
+}
+
+
+- (IBAction)howManyCookiesButtonTapped:(id)sender {
+   NSLog(@"%lu", [self.appAssembly me].cookies.count);
+//   HowManyCookiesVC* vc = [self.appAssembly howManyCookiesVC];
+   
+//   [self.navigationController presentViewController: [self.appAssembly howManyCookiesVC]
+//                                           animated:YES
+//                                         completion:nil];
+}
+
+
+- (void)styleButtons {
+   self.buyDogButton.layer.cornerRadius   = 10;
+   self.feedDogButton.layer.cornerRadius  = 10;
 }
 
 

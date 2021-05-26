@@ -14,6 +14,7 @@
                 <outlet property="dogHungerLabel" destination="8QV-VJ-MYT" id="GQe-85-xBG"/>
                 <outlet property="dogInfoLabel" destination="rAh-Yf-O7W" id="Nvk-KO-dNu"/>
                 <outlet property="feedDogButton" destination="ujt-1X-gLD" id="QL7-lv-4fg"/>
+                <outlet property="howManyCookiesButton" destination="QdC-eZ-2nl" id="8hl-Za-p52"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -23,7 +24,8 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fPx-wQ-P94">
-                    <rect key="frame" x="132" y="195" width="150" height="44"/>
+                    <rect key="frame" x="40" y="709" width="150" height="44"/>
+                    <color key="backgroundColor" red="0.62745100259999997" green="0.76470589639999997" blue="0.54509806630000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="150" id="e3D-Lk-YD1"/>
                         <constraint firstAttribute="height" constant="44" id="l3S-uI-lGW"/>
@@ -33,49 +35,60 @@
                         <action selector="buyDogButtonTapped:" destination="-1" eventType="touchUpInside" id="BUd-op-XVt"/>
                     </connections>
                 </button>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You do not have a dog" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rAh-Yf-O7W">
-                    <rect key="frame" x="82" y="424" width="250" height="44"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="250" id="RyL-Y9-WTY"/>
-                        <constraint firstAttribute="height" constant="44" id="uka-xM-qzr"/>
-                    </constraints>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Go ahead and buy yourself a dog!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rAh-Yf-O7W">
+                    <rect key="frame" x="79" y="115" width="256" height="20.5"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8QV-VJ-MYT">
-                    <rect key="frame" x="132" y="615" width="150" height="44"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8QV-VJ-MYT">
+                    <rect key="frame" x="57" y="217.5" width="300" height="44"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="44" id="fzR-PV-M0X"/>
-                        <constraint firstAttribute="width" constant="150" id="hQ8-kc-ErQ"/>
+                        <constraint firstAttribute="width" constant="300" id="hQ8-kc-ErQ"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ujt-1X-gLD">
-                    <rect key="frame" x="132" y="709" width="150" height="44"/>
+                    <rect key="frame" x="224" y="709" width="150" height="44"/>
+                    <color key="backgroundColor" systemColor="systemOrangeColor"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="150" id="0f8-3o-Hs5"/>
-                        <constraint firstAttribute="height" constant="44" id="MXd-yD-U9X"/>
+                        <constraint firstAttribute="height" constant="44" id="Uz6-ns-j4Y"/>
+                        <constraint firstAttribute="width" constant="150" id="w71-lO-tuw"/>
                     </constraints>
                     <state key="normal" title="Feed dog"/>
                     <connections>
                         <action selector="feedDogButtonTapped:" destination="-1" eventType="touchUpInside" id="PJ4-x6-53b"/>
                     </connections>
                 </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QdC-eZ-2nl">
+                    <rect key="frame" x="94" y="800" width="226" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="noM-IV-Ida"/>
+                        <constraint firstAttribute="width" constant="226" id="u3S-wE-oSQ"/>
+                    </constraints>
+                    <state key="normal" title="See how many cookies you have!"/>
+                    <connections>
+                        <action selector="howManyCookiesButtonTapped:" destination="-1" eventType="touchUpInside" id="awx-Wl-cFu"/>
+                    </connections>
+                </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="ujt-1X-gLD" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="FSi-vA-zUn"/>
-                <constraint firstItem="rAh-Yf-O7W" firstAttribute="top" secondItem="fPx-wQ-P94" secondAttribute="bottom" constant="185" id="M4O-Tf-QxF"/>
-                <constraint firstItem="ujt-1X-gLD" firstAttribute="top" secondItem="8QV-VJ-MYT" secondAttribute="bottom" constant="50" id="Spp-xj-Vq9"/>
-                <constraint firstItem="rAh-Yf-O7W" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Xbm-nA-Hbl"/>
-                <constraint firstItem="fPx-wQ-P94" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="151" id="jXs-bH-seQ"/>
-                <constraint firstItem="fPx-wQ-P94" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ptY-n6-ACv"/>
+                <constraint firstItem="QdC-eZ-2nl" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="94" id="1Xg-Ug-IjZ"/>
+                <constraint firstItem="ujt-1X-gLD" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="92" id="7fV-JQ-ap0"/>
+                <constraint firstItem="ujt-1X-gLD" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="665" id="Ncg-dZ-Grw"/>
+                <constraint firstItem="QdC-eZ-2nl" firstAttribute="top" secondItem="fPx-wQ-P94" secondAttribute="bottom" constant="47" id="Ro6-vz-Gzo"/>
+                <constraint firstItem="rAh-Yf-O7W" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="79" id="W3m-0G-YwB"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="rAh-Yf-O7W" secondAttribute="trailing" constant="79" id="fQo-0S-Rtg"/>
+                <constraint firstItem="fPx-wQ-P94" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="665" id="jXs-bH-seQ"/>
+                <constraint firstItem="8QV-VJ-MYT" firstAttribute="top" secondItem="rAh-Yf-O7W" secondAttribute="bottom" constant="82" id="jeT-7o-57n"/>
+                <constraint firstItem="rAh-Yf-O7W" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="71" id="opK-os-lL1"/>
+                <constraint firstItem="fPx-wQ-P94" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="-92" id="ptY-n6-ACv"/>
                 <constraint firstItem="8QV-VJ-MYT" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="rcO-3r-hJT"/>
-                <constraint firstItem="8QV-VJ-MYT" firstAttribute="top" secondItem="rAh-Yf-O7W" secondAttribute="bottom" constant="147" id="vfA-ST-sso"/>
             </constraints>
             <point key="canvasLocation" x="137.68115942028987" y="83.705357142857139"/>
         </view>
@@ -83,6 +96,9 @@
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

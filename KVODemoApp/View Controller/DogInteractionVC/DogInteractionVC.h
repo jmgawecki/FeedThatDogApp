@@ -6,8 +6,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Typhoon/Typhoon.h>
 #import "Person.h"
 #import "Dog.h"
+#import "Cookie.h"
+@class AppAssembly;
+//#import "AppAssembly.h"
 //#import "ForthVC+Category.h"
 
 NS_ASSUME_NONNULL_BEGIN
@@ -18,12 +22,18 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (strong, nonatomic) IBOutlet UIButton *feedDogButton;
 @property (strong, nonatomic) IBOutlet UIButton *buyDogButton;
+@property (strong, nonatomic) IBOutlet UIButton *howManyCookiesButton;
 
 @property Person *person;
 @property NSNumber *hunger;
+//@property AppAssembly *appAssembly;
+
+@property AppAssembly *appAssembly;
 
 
--(instancetype)initWithPerson:(Person *)person;
+-(instancetype)initWithPerson:(Person *)person assembly:(AppAssembly *)assembly;
+
+
 
 
 @end

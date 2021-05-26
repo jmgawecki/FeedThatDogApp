@@ -18,6 +18,7 @@
    self.window             = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
    self.window.windowScene = (UIWindowScene *)scene;
    self.appAssembly        = [[AppAssembly new] activated];
+   [self.appAssembly me];
    
    self.viewController     = [self.appAssembly dogVC];
    self.navController      = [[UINavigationController alloc] initWithRootViewController:self.viewController];
